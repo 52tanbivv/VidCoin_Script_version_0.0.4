@@ -1,0 +1,66 @@
+p {margin: 0; padding: 0;}
+ul, li {font-size: 1em; font-size: 1vw; list-style-type: none;}
+a {text-decoration: none; color: #000;}
+a:hover {color: #0066FF;}
+body {background-image: url('src/small_steps.png'); width: auto; height: auto; font-size: 100%; font-family: 'Open Sans', sans-serif; text-align: left; padding: 0; margin: 0;}
+#wrapper {position: relative; background: #fff; display: block; width: 70%; height: 90%; position: absolute; top: 0; bottom: 0; left: 0; right: 0; margin: auto; -webkit-box-shadow: 0px 0px 10px 1px rgba(102,102,102,1); -moz-box-shadow: 0px 0px 10px 1px rgba(102,102,102,1); box-shadow: 0px 0px 10px 1px rgba(102,102,102,1);}
+#logobox {width: 100%; text-align: center;}
+.VidCoinLogo {max-width: 100%; height: 57.56%; padding: 1% 0 0 0;}
+#contentbox {padding: 0 1% 0 1%;}
+	#leftcontent {width: 48%; float: left;}
+	#rightcontent {width: 48%; float: right;}
+		.rightheading {font-size: 3em; font-size: 3vw; padding: 0 1% 0 0%; text-align: right;}
+.greeting {font-size: 3em; font-size: 3vw; padding: 0 0 0 1%;}
+.heading {font-size: 1em; font-size: 1vw; padding: 0 0 0 1%;}
+.message {font-size: 0.75em; font-size: 0.75vw; padding: 1% 0 1% 2%;}
+#creditsandlinks {position: absolute; bottom: 0; right: 0; font-size: 0.75vw; text-align: right; padding: 0 1% 1% 0;}
+.btcregform {padding: 0 0 0 1%;}
+.btcregforminput {border: 1px #a2a2a2 solid; width: 15%;}
+.btcregformbutton {border: 1px #a2a2a2 solid;}
+.gotit {padding: 1% 0 0 1%;}
+
+/* Account panel */
+#leftbox {float: left; width: 31.37418950010458%; height: 80.88541666666667%; padding: 3% 0 3% 0;}
+	#accountlogobox{float: left; width: 100%;}
+		.accountVidCoinLogo{max-width: 100%;}
+	#userinfobox {float: left; width: 100%; text-align: center;}
+		.accountgreeting{font-size: 3em; font-size: 3vw;}
+		.accountheading{font-size: 1em; font-size: 1vw;}
+		.accountlinks{font-size: 1.5em; font-size: 1.5vw; padding: 1% 0 1% 0;}
+		.reflink {font-size: 0.75em; font-size: 0.75vw;}
+#rightbox {float: right; width: 68.62581049989542%; height: 80.88541666666667%; padding: 3% 0 3% 0;}
+	#videobox {width: 100%; position: relative; padding-bottom: 74.88541666666667%; height: 0; overflow: hidden;}
+		.videoiframe {position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;}
+		
+/* Contact form*/
+.contactForm {padding: 0 0 0 1%;}
+.contactInput {border: 1px #a2a2a2 solid; width: 50%;}
+.contactButton {border: 1px #a2a2a2 solid;}
+.thankyouMessage {font-size: 1em; font-size: 1vw; color: #FF9900;}
+
+/* Misc */
+.logginginmsg {font-size: 3em; font-size: 3vw; text-align: center; padding: 0 0 0 1%;}
+.warningmsg {font-size: 1em; font-size: 1vw; color: red; text-decoration: bold; padding: 0 0 0 1%;}
+.loggedoutVidCoinLogo {max-width: 100%;}
+.loggedoutLogoContainer {width: 16.75392670157068%; padding: 1%;}
+.g-recaptcha {}
+
+/* Admin panel */
+#adminWrapper {display: block; width: 70%; position: absolute; top: 0; bottom: 0; left: 0; right: 0; margin: auto;}
+#fadingBorders {-webkit-box-shadow: 0px 0px 10px 1px rgba(102,102,102,1); -moz-box-shadow: 0px 0px 10px 1px rgba(102,102,102,1); box-shadow: 0px 0px 10px 1px rgba(102,102,102,1);}
+#topBox {background-image: url('src/geometry.png'); display: block; width: 46%; padding: 2%; float: left;}
+#loginBox {background-image: url('src/geometry.png'); text-align: center; position: relative; display: block; width: 50%; height: 25%; position: absolute; top: 0; bottom: 0; left: 0; right: 0; margin: auto; padding: 2%; -webkit-box-shadow: 0px 0px 10px 1px rgba(102,102,102,1); -moz-box-shadow: 0px 0px 10px 1px rgba(102,102,102,1); box-shadow: 0px 0px 10px 1px rgba(102,102,102,1);}
+#statBox {background-image: url('src/geometry.png'); display: block; width: 46%; padding: 2%; float: right; font-size: 1em; font-size: 1vw;}
+#adminTopLinks {background-image: url('src/ps_neutral.png'); display: block; width: 96%; padding: 2%; font-size: 1.5em; font-size: 1.5vw; text-align: center;}
+#notes {text-align: center; font-size: 0.8em; font-size: 0.8vw; color: green; background-color: #fff;}
+#bottomBox {display: block; background-color: #fff; padding: 0 1% 1% 1%;}
+.adminLoginInput {border: 1px #a2a2a2 solid; width: 70%; margin: auto;}
+.adminTopLink {width: auto;}
+.adminNote {font-size: 0.8em; font-size: 0.8vw; color: green;}
+.adminTitle {font-size: 3em; font-size: 3vw;}
+.error {font-size: 3em; font-size: 3vw; color: red;}
+.success {font-size: 3em; font-size: 3vw; color: green;}
+.table  {width: 100%; font-size: 1em; font-size: 1vw;}
+.statBoxItems {display: block; font-size: 1em; font-size: 1vw; text-align: right;}
+.techSupportTitle {font-size: 2em; font-size: 2vw; color: green;}
+.techSupportMsg {font-size: 1em; font-size: 1vw;}

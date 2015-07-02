@@ -1,0 +1,1 @@
+<img class="VidCoinLogo" src="../src/VidCoinLogo.png" alt="VidCoin logo - Earn free Bitcoins by watching short videos"/>
