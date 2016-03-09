@@ -83,11 +83,15 @@
 		require '../config.php';
 		$con = mysqli_connect($hostname, $dbusername, $dbpassword, $dbname);
 		global $currentfbid;
-		$query = " SELECT balance FROM referrals WHERE referrer_fbid = '$currentfbid' ";
+		$query = " SELECT balance FROM vidcoin_referrals WHERE referrer_fbid = '$currentfbid' ";
 		$result = mysqli_query($con, $query);
 		$row = mysqli_fetch_array($result);
 		mysqli_close($con);
-		return $row[0];
+			if (!empty($row[0])) {
+				return $row[0];
+			} else {
+				return "0";
+			}
 	}
 	
 	// Connect to database and return the fbid (used for checking whether the user exists or not)
