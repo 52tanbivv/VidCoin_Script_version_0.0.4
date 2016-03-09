@@ -1,3 +1,12 @@
+ ______
+/ Demo \
+-----------------------------------------------------------------------
+
+	Access the live demo here: http://vidcoin.ynef.net
+	Admin panel URL: http://vidcoin.ynef.net/admin.php
+	Admin panel password: Ko2jvKDKeOKvjdnf
+
+-----------------------------------------------------------------------
 
 
  _______________________
