@@ -15,7 +15,7 @@
 	</head>
 	<body>
     <?php if (isset($_POST["regButton"])) {
-		connect();
+		$con = connect();
 		// Set variables to be written in the database
 		$btcaddress = $_POST['btcaddress'];
 		$balance = 0;

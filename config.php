@@ -19,7 +19,7 @@ $dbpassword = "";
 -------------------------------*/
 
 // Your site title
-$siteTitle = 'VidCoin';
+$siteTitle = '';
 
 // This is the ID you get after validating your site with Virool network at http://www.virool.com
 // Read more from the README.txt about setting up VIROOL
