@@ -55,9 +55,19 @@
 			$redeemedBalance = strip_tags($_POST["vidcoinamount"]);
 			$actualBalance = get_balance();
 			
+			if ($redeemedBalance < 0) {
+				echo "Error: Can't withdraw a negative amount!";
+				die;
+			}
+			
+			if ($redeemedBalance == 0) {
+				echo "Error: Can't withdraw a zero amount!";
+				die;
+			}
+			
 				if ($actualBalance < $redeemedBalance && $redeemedBalance!=0) { // If trying to redeem what the user don't have OPEN ?>
-				<span class='greeting'>Sorry, you can't exchange that...</span><br/>
-				<span class='heading'>You have <?php echo $row['balance']; ?> VidCoins that you can exchange here.</span><br/>
+				<span class='greeting'>Sorry, but you don't have enough...</span><br/>
+				<span class='heading'>You have <?php echo get_balance(); ?> VidCoins that you can exchange here.</span><br/>
 				<span class='heading'>Enter the amount you wish to redeem and hit submit.</span><br/>
 				<form class="btcregform" action='redeem.php' method='post'>
 					<input class="btcregforminput" type='text' value='' id='vidcoinamount' name='vidcoinamount'>
