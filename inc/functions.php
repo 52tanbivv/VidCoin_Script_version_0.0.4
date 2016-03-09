@@ -83,7 +83,7 @@
 		require '../config.php';
 		$con = mysqli_connect($hostname, $dbusername, $dbpassword, $dbname);
 		global $currentfbid;
-		$query = " SELECT balance FROM vidcoin_referrals WHERE referrer_fbid = '$currentfbid' ";
+		$query = " SELECT balance FROM referrals WHERE referrer_fbid = '$currentfbid' ";
 		$result = mysqli_query($con, $query);
 		$row = mysqli_fetch_array($result);
 		mysqli_close($con);
